@@ -2,7 +2,7 @@ apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
   name: podinfo
-  namespace: maven-app
+  #namespace: maven-app
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
